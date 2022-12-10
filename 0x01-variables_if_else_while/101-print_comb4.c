@@ -8,20 +8,20 @@ int main(void)
 {
 	/* Prints all possible different combinations of three digits */
 
-	int m, n, o;
+	int n, m, l;
 
-	for (m = 48; n < 58; n++)
+	for (n = 48; n < 58; n++)
 	{
-		for (n = 49; m < 58; m++)
+		for (m = 49; m < 58; m++)
 		{
-			for (o = 50; o < 58; o++)
+			for (l = 50; l < 58; l++)
 			{
-				if (o > n && n > m)
+				if (l > m && m > n)
 				{
-					putchar(m);
 					putchar(n);
-					putchar(o);
-					if (m != 55 || n != 56)
+					putchar(m);
+					putchar(l);
+					if (n != 55 || m != 56)
 					{
 						putchar(',');
 						putchar(' ');
