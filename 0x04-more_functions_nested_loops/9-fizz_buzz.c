@@ -7,7 +7,6 @@
  * 3 and 5 multiples, FizzBuzz is printed instead of the number
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	int num;
@@ -32,5 +31,6 @@ int main(void)
 	}
 
 	printf("\n");
+
 	return (0);
 }
