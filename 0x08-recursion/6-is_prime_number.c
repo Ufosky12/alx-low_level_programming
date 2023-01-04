@@ -1,4 +1,5 @@
-#include "holberton.h"
+#include "main.h"
+
 /**
  * find_multipliers - look for multipliers of n.
  * @n: base number.
